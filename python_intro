@@ -1,0 +1,21 @@
+print('Hola, Nancy girl')
+
+if 2>3:
+	print('es the real')
+else:
+	print('es falso')
+
+
+def funcion(parametro):
+	print('esta es una función')
+	print('aqui imprimo un parametro: '+parametro)
+
+funcion('nancy')
+
+nombres = ['nancy', 'vale', 'paula', 'belén']
+
+for nombre in nombres:
+	funcion(nombre)
+
+for i in range(1, 24):
+	print(i)
